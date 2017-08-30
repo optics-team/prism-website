@@ -1,0 +1,55 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Prism"
+theme = "prism"
+
+[params]
+  description = "Building APIs has never been so easy"
+  github_repo = "https://github.com/optics-team/prism/issues/new"
+  stackoverflow = "https://stackoverflow.com/questions/tagged/optics-prism"
+
+[[menu.docs]]
+  name = "About Prism"
+  weight = 10
+  identifier = "about"
+  url = "/about"
+
+[[menu.docs]]
+  name = "Guides & Tutorials"
+  weight = 20
+  identifier = "guides"
+  url = "/guides"
+
+[[menu.global]]
+  name = "Docs"
+  weight = 20
+  identifier = "docs"
+  url = "/docs"
+
+[[menu.global]]
+  name = "Addons"
+  weight = 30
+  identifier = "addons"
+  url = "/addons"
+
+[[menu.global]]
+  name = "API"
+  weight = 40
+  identifier = "api"
+  url = "/api"
+
+[[menu.global]]
+  name = "GitHub"
+  weight = 110
+  icon = true
+  identifier = "github"
+  post = "external"
+  url = "https://github.com/optics/prism"
+
+[[menu.global]]
+  name = "StackOverflow"
+  weight = 120
+  icon = true
+  identifier = "stackoverflow"
+  post = "external"
+  url = "https://stackoverflow.com/questions/tagged/optics-prism"
