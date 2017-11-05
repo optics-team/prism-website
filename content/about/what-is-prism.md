@@ -7,6 +7,7 @@ toc: true
 menu:
   docs:
     parent: "about"
+aliases: ["docs"]
 ---
 
 Prism is designed to assist in the very specific task of building HTTP APIs that are bound to database backend. In addition to this, Prism uses [Hypermedia][] principles to augment emitted data with rich attributes such as [embedded data][], [links][] and [mutation controls][].
